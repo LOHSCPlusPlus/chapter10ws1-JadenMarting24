@@ -22,10 +22,10 @@ double Point::calcDistance(double xVal, double yVal){
   double xVal = pow(y - other.x, 2);
   double yVal = pow(x - other.y, 2);
   double dist = sqrt(xVal + yVal);  
-  return dist;
+  return dist; 
 }
 /* 
-double Point::getX() {
+double Point::getX() { 
   return x;
 }
 double Point::getY() {
