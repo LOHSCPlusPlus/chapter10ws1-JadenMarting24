@@ -18,11 +18,11 @@ void Point::print(){
   cout << "y:" << y;
   cout << endl;
 }
-double Point::calcDistance(double xVal, double yVal){
-  double xVal = pow(y - other.x, 2);
-  double yVal = pow(x - other.y, 2);
+double Point::calcDistance(Point other){
+  double xVal = pow(x - other.x, 2);
+  double yVal = pow(y - other.y, 2);
   double dist = sqrt(xVal + yVal);  
-  return dist; 
+  return dist;  
 }
 /* 
 double Point::getX() { 

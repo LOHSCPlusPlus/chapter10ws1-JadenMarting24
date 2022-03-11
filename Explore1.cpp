@@ -27,7 +27,7 @@ int main() {
     b.print(); 
 
     // Look! the equal operator still works!
-     a = b;
+    a = b;
     cout << "Point a:";
     a.print();
 
